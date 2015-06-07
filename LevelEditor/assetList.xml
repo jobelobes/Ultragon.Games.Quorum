@@ -1,0 +1,25 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<assets path="..\\Assets\\">
+	<!--<asset name="testAsset" path="" filename="test.png" classAssociation="NULL" />-->
+	<!--<asset name="bgstars" path="" filename="bgstars.png" classAssociation="NULL" />-->
+	<!--<asset name="nebula" path="" filename="nebula.png" classAssociation="NULL" />-->
+	<asset name="stars" path="Art\\" filename="stars.png" classAssociation="NULL" />
+	<layer name="backgroundStarfield" assetName="stars" parallax="10" mapSizeX="10" mapSizeY="10" tileSizeX="15" tileSizeY="15">
+		<item assetName="bgstars" x="0.0" y="0.0" uniqueName="testAsset_0002"></item>
+		<item assetName="bgstars" x="-1920.0" y="0.0" uniqueName="testAsset_0002"></item>
+		<item assetName="bgstars" x="-1920.0" y="1080.0" uniqueName="testAsset_0002"></item>
+		<item assetName="bgstars" x="0.0" y="1080.0" uniqueName="testAsset_0002"></item>
+	</layer>
+	<layer name="midgroundStarfield" assetName="stars" parallax="20" mapSizeX="9" mapSizeY="9" tileSizeX="20" tileSizeY="20">
+		<item assetName="nebula" x="0.0" y="0.0" uniqueName="testAsset_0002"></item>
+		<item assetName="nebula" x="-1920.0" y="0.0" uniqueName="testAsset_0002"></item>
+		<item assetName="nebula" x="-1920.0" y="1080.0" uniqueName="testAsset_0002"></item>
+		<item assetName="nebula" x="0.0" y="1080.0" uniqueName="testAsset_0002"></item>
+	</layer>
+	<layer name="foreground" assetName="stars" parallax="30" mapSizeX="8" mapSizeY="8" tileSizeX="25" tileSizeY="25">
+		<item assetName="testAsset" x="0.0" y="0.0" uniqueName="testAsset_0001">
+			<visited>false</visited>
+			<naviDescription>jp-design logo for fun</naviDescription>
+		</item>
+	</layer>
+</assets>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioToolFile
+	Name="Effect Compiler"
+	Version="8.00"
+	>
+	<Rules>
+		<CustomBuildRule
+			Name="FXC"
+			DisplayName="FXC"
+			CommandLine="&quot;$(DXSDK_DIR)\Utilities\bin\x86\fxc.exe&quot; /nologo /T fx_4_0 &quot;$(InputPath)&quot;"
+			Outputs="$(InputPath).fxo"
+			FileExtensions="*.fx"
+			>
+			<Properties>
+			</Properties>
+		</CustomBuildRule>
+	</Rules>
+</VisualStudioToolFile>

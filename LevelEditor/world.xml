@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quorum path="./assets/">
+  <asset name="Asteroid" path="" filename="asteroid.png" classAssociation="NULL"/>
+  <asset name="Planet" path="" filename="planet.png" classAssociation="NULL"/>
+  <asset name="Enemy_1" path="" filename="enemy_1.png" classAssociation="NULL"/>
+  <layer name="world" parallax="1">
+    <item assetName="bgstars" x="0" y="0" uniqueName="bgstars_0"/>
+    <item assetName="bgstars" x="-1920" y="0" uniqueName="bgstars_1"/>
+    <item assetName="bgstars" x="-1920" y="1080" uniqueName="bgstars_2"/>
+    <item assetName="bgstars" x="0" y="1080" uniqueName="bgstars_3"/>
+    <item assetName="Asteroid" x="1944" y="4284" uniqueName="Asteroid_4"/>
+    <item assetName="Asteroid" x="2234" y="4381" uniqueName="Asteroid_5"/>
+  </layer>
+  <world>
+    <environmentObject type="bgstars" scaleX="1" scaleY="1" positionX="0" positionY="0"/>
+    <environmentObject type="bgstars" scaleX="1" scaleY="1" positionX="-1920" positionY="0"/>
+    <environmentObject type="bgstars" scaleX="1" scaleY="1" positionX="-1920" positionY="1080"/>
+    <environmentObject type="bgstars" scaleX="1" scaleY="1" positionX="0" positionY="1080"/>
+    <environmentObject type="Asteroid" scaleX="1" scaleY="1" positionX="1944" positionY="4284"/>
+    <environmentObject type="Asteroid" scaleX="1" scaleY="1" positionX="2234" positionY="4381"/>
+  </world>
+</quorum>
